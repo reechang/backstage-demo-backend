@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: devgate-showcase
-  title: Devgate Showcase
+  name: devgate-showcase-test
+  title: Devgate Showcase Test
   description: |
-    This is the Showcase of Devgate
+    This is the Showcase of Devgate of kubernetes plugin
   links:
     - title: Janus Website
       url: https://janus-idp.io
