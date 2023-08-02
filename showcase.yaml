@@ -6,24 +6,18 @@ metadata:
   description: |
     This is the Showcase of Devgate of kubernetes plugin
   links:
-    - title: Janus Website
-      url: https://janus-idp.io
-    - title: Janus Showcase
-      url: https://showcase.janus-idp.io/
-    - title: Blog
-      url: https://janus-idp.io/blog
-    - title: Slack
-      url: https://join.slack.com/t/janus-idp/shared_invite/zt-1pxtehxom-fCFtF9rRe3vFqUiFFeAkmg
+    - title: Infineon
+      url: https://www.infineon.com/
+    - title: Infineon Devspace
+      url: https://devspaces.eu-at-3.icp.infineon.com/dashboard/#/create-workspace?tab=quick-add
+    - title: Devgate console
+      url: https://devgate.eu-de-1.icp.infineon.com/
   annotations:
-    argocd/app-name: "janus-idp"
     backstage.io/kubernetes-id: 'operation-first'
-    github.com/project-slug: janus-idp/backstage-showcase
-    quay.io/repository-slug: janus-idp/backstage-showcase
-    backstage.io/techdocs-ref: url:https://github.com/janus-idp/backstage-showcase
 spec:
   type: website
-  system: janus-idp
-  owner: janus-authors
+  system: devgate
+  owner: devgate
   lifecycle: production
   dependsOn:
     - resource:pgdb
